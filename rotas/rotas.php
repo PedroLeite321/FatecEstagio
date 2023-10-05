@@ -1,3 +1,4 @@
+<?php 
 function rotas() {
     function erro() {
         require("../controles/erro.php");
@@ -14,8 +15,8 @@ function rotas() {
             "/aluno" => "/controles/aluno.php/",
             "/empresa" => "/controles/empresa.php/",
             "/admin" => "/controles/adm.php/"
-        ]
-        return $rotas;
+        ];
+        return( $rotas );
     }
     function checaUrl( $caminho, $rota ) {
         if( array_key_exists($caminho, $rota ) )    {
@@ -29,3 +30,6 @@ function rotas() {
     checaUrl( $pegaValorUrl, $pegaValorRota );
 
 }
+
+
+?>
