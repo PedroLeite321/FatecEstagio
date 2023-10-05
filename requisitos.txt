@@ -1,0 +1,46 @@
+definir layout do site, utilizar um de exemplo.
+dentro do site:
+meio de preenchimento de termo de estágio e outros documentos
+importantes para realização do procesos de estágio.
+separar o layout de: Administração, Aluno e Empresa.
+definir meio de obter contato com empresas
+estabelecer um meio de priorizar a vaga para Fatec(caso não haja,
+um modo de filtrar todas as vagas pertinentes a nossa região)
+
+
+para aluno:
+login/registro usando email da fatec + RA
+
+layoutAluno:
+informações sobre o processo para cada tipo de aluno
+vagas
+e um iframe contendo a localização de cada empresa, se possível.
+e assinatura de termo de estágio do aluno
+
+Tipos de alunos(Pessoa buscando empregabilidade no inicio do curso e
+pessoa buscando satisfazer os requisitos de estágio)
+
+layout empresa:
+informações de coisas como: periodo aonde a vaga vai ser
+vista(2 semanas)
+
+formulário para preencher a vaga e seus requisitos, botão aonde ele
+diz se já contratou um funcionário da Fatec e sua satisfação com o mesmo
+feedback para melhora do curso e requisitos de sua empresa.
+
+assinatura de termo de estágio com emissão para administrativo.
+
+admnistrativo:
+
+breve visualização através de um simples dashboard que contém:
+Alunos admitidos para vagas dentro de um periodo selecionável no site
+Feedback das empresas
+e assinatura de termo de estágio da empresa e aluno
+
+
+separação por email:
+
+aluno: email fatec + RA
+adm: email específico para adm: @fatecadmin.sp.gov.br
+empresa: email empresarial: @nomeempresa.com
+

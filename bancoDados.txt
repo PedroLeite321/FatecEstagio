@@ -1,0 +1,35 @@
+Bd
+
+	dados empresa
+		id
+		nomeEmpresa
+		endereço
+		bairro
+		cidade
+		estado
+		cnpj
+		email
+		nomeContratado
+		descriçãoVaga
+		feedback
+	dados aluno
+		id
+		nomeAluno
+		rg
+		endereço
+		cidade
+		bairro
+		Ra
+		emailInstitucional
+		curso		
+		periodo
+		genero		
+		etnia
+	dados admin
+		acesso ao termoEstágioAlunoEmpresa
+	dados vagas
+		listaVagas
+	termoEstágioAluno
+	termoEstágioEmpresa
+
+7Categorias Ecommerce
