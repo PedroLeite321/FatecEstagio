@@ -1,4 +1,4 @@
 <?php 
-    require("./visualizacao/adm.php.view");
-
+    require("./visualizacao/admin/admin.view.php");
+    
 ?>

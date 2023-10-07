@@ -11,10 +11,10 @@ function rotas() {
     function defineRotas()  {
         //cria uma array associativa, ou seja uma array que tem um nome, também chamada de hash.
         $rotas = [
-            "/" => "/controles/principal.php/",
-            "/aluno" => "/controles/aluno.php/",
-            "/empresa" => "/controles/empresa.php/",
-            "/admin" => "/controles/adm.php/"
+            "/" => "./controles/adm.php",/*  "./controles/principal.php", */
+            "/aluno" => "./controles/aluno.php",
+            "/empresa" => "./controles/empresa.php",
+            "/admin" => "./controles/adm.php"
         ];
         return( $rotas );
     }
@@ -30,6 +30,6 @@ function rotas() {
     checaUrl( $pegaValorUrl, $pegaValorRota );
 
 }
-
+rotas();
 
 ?>

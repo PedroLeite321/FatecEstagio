@@ -29,7 +29,7 @@ Bd
 		acesso ao termoEstágioAlunoEmpresa
 	dados vagas
 		listaVagas
-	termoEstágioAluno
-	termoEstágioEmpresa
+		termoEstágioAluno
+		termoEstágioEmpresa
 
 7Categorias Ecommerce
