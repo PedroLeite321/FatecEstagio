@@ -4,32 +4,35 @@ Bd
 		id
 		nomeEmpresa
 		endereço
+		cnpj
+		email
+	dados aluno
+		id
+		curso		
+		periodo	
+		bairro
+	dados admin
+		acesso quantidade de alunos matriculados no estágio
+		acesso a quantidade de alunos que deveriam estar matriculados 
+		acesso quantidade de empresas com convenio
+
+	dados vagas
+		id
+		nomeEmpresa
+		descriçãoVaga
 		bairro
 		cidade
 		estado
-		cnpj
-		email
-		nomeContratado
-		descriçãoVaga
-		feedback
-	dados aluno
-		id
-		nomeAluno
-		rg
 		endereço
-		cidade
-		bairro
-		Ra
+		cursoVoltado
+		data
+	CadastroAluno
+		nomeAluno
 		emailInstitucional
-		curso		
-		periodo
-		genero		
-		etnia
-	dados admin
-		acesso ao termoEstágioAlunoEmpresa
-	dados vagas
-		listaVagas
-		termoEstágioAluno
-		termoEstágioEmpresa
-
+		senha(preferivel o RA, mas não sei como a lógica funcionaria.)
+	CadastroEmpresa
+		nomeEmpresa
+		emailDeGuerra
+		senha
+		cnpj(verificação somente)
 7Categorias Ecommerce

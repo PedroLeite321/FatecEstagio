@@ -1,0 +1,174 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  scroll-margin: 100px;
+}
+.topo-cont{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: rgb(96, 96, 96);
+  border-bottom: 2px solid black;
+}
+.link-nav{
+  display: flex;
+  justify-self: center;
+  align-self: end;
+}
+.links-nav{
+  gap: 30px;
+}
+a{
+  text-decoration: none;
+}
+.mt-35{
+  margin-top: 120px;
+}
+/*REDIMENSIONAMENTO DA IMAGEM PARA O CABEÇALHO*/
+.img-logo{
+width: 200px;
+height: 80px;
+}
+/*COR BRANCA PARA OS LINK DE NAVEGAÇÃO*/
+.nav-color{
+  color: white;
+}
+/*DESLIGAMENTO DA FUNCAO HOVER*/
+.hov-off:hover{
+  color: white;
+}
+
+/* ESTILIZAÇÃO DO MODAL LOGIN */
+.modal-content{
+background-color: rgb(96, 96, 96);
+justify-items:center ;
+color: white;
+}
+.modal-header{
+  display: inline-block;
+  text-align: center;
+}
+.modal-body{
+  display: flex;
+  align-self: center;
+  padding-top: 50px;
+}
+
+/* ancora */
+
+.corpo-cont{
+display: flex;
+}
+p{
+  font-size: 1.25rem;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #1a0e0ef6;
+  padding: 20px;
+}
+#color-cinza{
+  background-color: #f6f6f6f6;
+  border-bottom: 30px solid white;
+  padding-bottom: 20px;
+}
+.mural-vagas{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+width: 100%;
+height: 100%;
+gap: 20px;
+
+}
+#primeira-vaga{
+   border: 2px solid black;
+   padding: 10px;
+   border-radius: 10px;
+   /* padding: 10px; */
+}
+.txt-small{
+  font-size: 16px;
+}
+.box-cont{
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+.box-doc{
+  display: inline-block;
+  padding: 20px 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.cor--cinza{
+  background-color: rgb(96, 96, 96);
+  color: white;
+}
+/* mapa fatec */
+#maps{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 50px;
+}
+/* FOOTER CONTAINER */
+.cont-ft{
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  /* align-items: center; */
+  background-color: rgb(96, 96, 96);
+  padding: 60px;
+}
+/* COR BRANCA NA TAG P DO FOOTER */
+#contact img +p, #contact p{
+  color: white;
+}
+/* LOGO FOOTER */
+.img-logo-ft img{
+  width: 75%;
+ height: 200px;
+}
+/* REDIMENCIONAMENTO DOS ICONES */
+.contato-media img, .contato-link img{
+  width: 46px;
+}
+/* container links das redes sociais */
+.contato-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+/* container email e whatsapp */
+.contato-link{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;}
+.item-ft a{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  text-decoration: none;}
+.item-ft a img+p{
+font-size: 25px;
+}
+.contato-endereco p{
+font-size: 25px;
+}
+.contato-endereco{
+  align-self: center;
+}
+.linha{
+width: 100%;
+height: 2px;
+grid-column: 1 / -1;
+  background-color: white;
+}
+/* COPY DIREITOS */
+.copy-ft{
+grid-column: 2;
+padding: 20px;
+color: white;
+}

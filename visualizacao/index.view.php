@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Estágio</title>
-</head>
-<body>
-    <h1>I'm working</h1>
-</body>
-</html>
+<?php 
+    require("./visualizacao/html/html.php");
+    require("./visualizacao/html/head.php");
+    require("./visualizacao/html/body.php");
+    require("./visualizacao/html/principal/navbar.placeholder.php");
+    require("./visualizacao/html/pageContent/principal.content.php");
+    require("./visualizacao/html/footer.php");
+
+?>

@@ -1,0 +1,3 @@
+usuario db: fatecestagiousuarios
+nome: fiw
+senha: tgFatec2023!
