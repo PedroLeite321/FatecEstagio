@@ -300,10 +300,7 @@
       </div>
     </div>
   </section>
-  <section id="maps">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.59088875231!2d-47.87035858522078!3d-23.330597858995446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5d8935fa04659%3A0x4c76d62eef12bce7!2sFatec+Tatu%C3%AD+-+Prof.+Wilson+Roberto+Ribeiro+de+Camargo+-+Faculdade+de+Tecnologia+de+Tatu%C3%AD!5e0!3m2!1spt-BR!2sbr!4v1554735489613!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen="">
-    </iframe>
-  </section>
+ 
   <footer>
     <div class="cont-ft" id="contato-scroll">
       <div class="img-logo-ft">
