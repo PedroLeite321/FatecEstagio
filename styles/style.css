@@ -58,9 +58,7 @@ color: white;
 .corpo-cont{
 display: flex;
 }
-p{
-  font-size: 1.25rem;
-}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-color: #1a0e0ef6;
   padding: 20px;

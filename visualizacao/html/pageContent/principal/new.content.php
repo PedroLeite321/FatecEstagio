@@ -10,104 +10,68 @@
 </head>
 
 <body>
-
-  <header class="topo-cont fixed-top">
-    <div class="img-cont">
-      <img class="img-logo" src="./img/2TESTELOGO.svg" alt="/">
-    </div>
-    <ul class="nav nav-tabs justify-content-end align-self-center">
-      <li class="nav-item">
-        <a class="nav-link nav-color hov-off" href="#">Inicio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-color hov-off" href="#color-cinza">Mural</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-color hov-off" href="#documento-scroll">Documentos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav-color hov-off" href="#contato-scroll">Contato</a>
-      </li>
-      <li class="nav-item">
-        <a type="button" class="btn text-white" data-toggle="modal" data-target="#login-modal">
-          login
-        </a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle nav-color hov-off " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Criar</a>
-        <div class="dropdown-menu">
-          <a type="button" class="btn text-dark" data-toggle="modal" data-target="#aluno-modal">
-            Aluno
-          </a>
-          <a type="button" class="btn text-dark" data-toggle="modal" data-target="#empresa-modal">
-            Empresa
-          </a>
-        </div>
-      </li>
-    </ul>
-  </header>
-  <main>
+  <main class="container">
     <div>
       <h1 class="mt-35 text-center">Novo Site do Programa de Estágio da Fatec Tatuí-SP: Uma Evolução para Nossa Comunidade Acadêmica</h1>
     </div>
-    <div class="container text-start p-5 mr-5 ml-5">
+    <div class="container text-start">
       <div class="primeiro-conteudo">
         <h3 class="mt-3 mb-3 p-3 text-center">Caros alunos, professores e parceiros da Fatec Tatuí-SP</h3>
-        <p class=" pt-5 ">
+        <p  class="lead pr-3 pl-3">
           É com grande entusiasmo que anunciamos o lançamento do nosso novo site do Programa de Estágio da Fatec Tatuí-SP! Este projeto representa um passo significativo em nossa jornada educacional, trazendo melhorias substanciais para o programa de estágio da faculdade.</p>
-        <p>Este novo site é a culminação de nossos esforços para enriquecer a experiência de estágio de nossos alunos e fortalecer nossa parceria com as empresas locais. Acreditamos que essas melhorias ajudarão nossos alunos a desenvolver habilidades práticas e a dar os primeiros passos em suas carreiras de forma mais eficaz.</p>
-        <p>
+        <p class="lead pl-3 pr-3">Este novo site é a culminação de nossos esforços para enriquecer a experiência de estágio de nossos alunos e fortalecer nossa parceria com as empresas locais. Acreditamos que essas melhorias ajudarão nossos alunos a desenvolver habilidades práticas e a dar os primeiros passos em suas carreiras de forma mais eficaz.</p>
+        <p class="lead pl-3 pr-3">
           Agradecemos a todos que contribuíram para tornar este projeto uma realidade e convidamos todos os membros de nossa comunidade acadêmica a explorar o novo site do Programa de Estágio da Fatec Tatuí-SP. Juntos, continuaremos a promover o crescimento e o sucesso de nossos alunos.</p>
       </div>
       <div class="container text-start border border-dark mb-5 " style="background-color: rgb(238, 236, 236);">
         <h3 class="mt-5 mb-5 text-center">O que há de novo no nosso site?</h3>
-        <p><b> Facilidade de Navegação:</b> Agora, os alunos e empresas parceiras terão uma experiência de navegação mais intuitiva e amigável, permitindo que encontrem informações importantes de forma rápida e eficiente.
+        <p class="lead pl-3 pr-3"><b> Facilidade de Navegação:</b> Agora, os alunos e empresas parceiras terão uma experiência de navegação mais intuitiva e amigável, permitindo que encontrem informações importantes de forma rápida e eficiente.
         </p>
-        <p>
+        <p class="lead pl-3 pr-3">
           <b>Acesso a Vagas de Estágio: </b> Nosso novo site será uma plataforma central para anunciar e encontrar vagas de estágio de empresas parceiras, garantindo que nossos alunos tenham acesso a oportunidades de aprendizado prático de qualidade.
         </p>
-        <p>
+        <p class="lead pl-3 pr-3">
           <b> Processo de Candidatura Simplificado:</b> Facilitamos o processo de candidatura para nossos alunos, tornando-o mais ágil e direto, para que vocês possam focar na busca pela melhor oportunidade de estágio.
         </p>
-        <p>
+        <p class="lead pl-3 pr-3">
           <b>Recursos de Orientação Profissional:</b> Ofereceremos recursos educacionais adicionais, como artigos, dicas e orientação para ajudar nossos alunos a se prepararem e se destacarem em suas jornadas de estágio.
         </p>
-        <p>
+        <p class="lead pl-3 pr-3">
           <b>Feedback e Avaliações:</b> Implementamos um sistema de feedback e avaliações para nossos estagiários, permitindo que tanto as empresas quanto os alunos compartilhem suas experiências e melhorem continuamente.
         </p>
-        <p>
+        <p class="lead pl-3 pr-3">
           <b>Comunicação Aprimorada:</b> Estaremos mais próximos de vocês, oferecendo atualizações regulares sobre oportunidades de estágio, eventos relacionados à carreira e notícias importantes.
         </p>
 
   </main>
   <section id="color-cinza">
     <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-      <div class="carousel-inner container ">
+      <div class="carousel-inner container carouselStyle" >
         <div class="carousel-item active ">
           <h1 class="text-center">Vagas Disponiveis</h1>
           <div class="mural-vagas ">
             <span id="primeira-vaga">
               <h2 class="text-center">Microsoft Corp</h2>
               <strong>Vaga:</strong>
-              <p class="txt-small">Front-End Development</p>
-              <p><br></p>
+              <p  class="lead pl-3 pr-3">Front-End Development</p>
+              <p ><br></p>
               <strong>Tipo de Vaga:</strong>
-              <p class="txt-small">
+              <p  class="lead pl-3 pr-3">
                 CLT
               </p>
-              <p><br></p>
+              <p ><br></p>
               <strong>Descrição:</strong>
-              <p class="txt-small">
+              <p  class="lead pl-3 pr-3">
                 Transforme designs em experiências web incríveis. Domine HTML, CSS e JavaScript para criar interfaces atraentes e responsivas. Junte-se a nós e impulsione a web com sua criatividade.
               </p>
-              <p><br></p>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>Requisitos</strong>
               <ul>
                 <li>5 anos de experiencia na area</li>
                 <li>Cursando 3 semestre</li>
                 <li>Ingles fluente</li>
               </ul>
-              <p><br></p>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>beneficios</strong>
               <ul>
                 <li>Salario: R$1.500,00</li>
@@ -119,90 +83,25 @@
             <span id="primeira-vaga">
               <h2 class="text-center">Microsoft Corp</h2>
               <strong>Vaga:</strong>
-              <p class="txt-small">Front-End Development</p>
-              <p><br></p>
+              <p  class="lead pl-3 pr-3">Front-End Development</p>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>Tipo de Vaga:</strong>
-              <p class="txt-small">
+              <p  class="lead pl-3 pr-3">
                 CLT
               </p>
-              <p><br></p>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>Descrição:</strong>
-              <p class="txt-small">
+              <p  class="lead pl-3 pr-3">
                 Transforme designs em experiências web incríveis. Domine HTML, CSS e JavaScript para criar interfaces atraentes e responsivas. Junte-se a nós e impulsione a web com sua criatividade.
               </p>
-              <p><br></p>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>Requisitos</strong>
               <ul>
                 <li>5 anos de experiencia na area</li>
                 <li>Cursando 3 semestre</li>
                 <li>Ingles fluente</li>
               </ul>
-              <p><br></p>
-              <strong>beneficios</strong>
-              <ul>
-                <li>Salario: R$1.500,00</li>
-                <li>Seguro de Vida</li>
-                <li>Plano de Saude</li>
-              </ul>
-              <span>10/10/23</span>
-            </span>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <h1 class="text-center">Vagas Disponiveis</h1>
-          <div class="mural-vagas ">
-            <span id="primeira-vaga">
-              <h2 class="text-center">Microsoft Corp</h2>
-              <strong>Vaga:</strong>
-              <p class="txt-small">Front-End Development</p>
-              <p><br></p>
-              <strong>Tipo de Vaga:</strong>
-              <p class="txt-small">
-                CLT
-              </p>
-              <p><br></p>
-              <strong>Descrição:</strong>
-              <p class="txt-small">
-                Transforme designs em experiências web incríveis. Domine HTML, CSS e JavaScript para criar interfaces atraentes e responsivas. Junte-se a nós e impulsione a web com sua criatividade.
-              </p>
-              <p><br></p>
-              <strong>Requisitos</strong>
-              <ul>
-                <li>5 anos de experiencia na area</li>
-                <li>Cursando 3 semestre</li>
-                <li>Ingles fluente</li>
-              </ul>
-              <p><br></p>
-              <strong>beneficios</strong>
-              <ul>
-                <li>Salario: R$1.500,00</li>
-                <li>Seguro de Vida</li>
-                <li>Plano de Saude</li>
-              </ul>
-              <span>10/10/23</span>
-            </span>
-            <span id="primeira-vaga">
-              <h2 class="text-center">Microsoft Corp</h2>
-              <strong>Vaga:</strong>
-              <p class="txt-small">Front-End Development</p>
-              <p><br></p>
-              <strong>Tipo de Vaga:</strong>
-              <p class="txt-small">
-                CLT
-              </p>
-              <p><br></p>
-              <strong>Descrição:</strong>
-              <p class="txt-small">
-                Transforme designs em experiências web incríveis. Domine HTML, CSS e JavaScript para criar interfaces atraentes e responsivas. Junte-se a nós e impulsione a web com sua criatividade.
-              </p>
-              <p><br></p>
-              <strong>Requisitos</strong>
-              <ul>
-                <li>5 anos de experiencia na area</li>
-                <li>Cursando 3 semestre</li>
-                <li>Ingles fluente</li>
-              </ul>
-              <p><br></p>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>beneficios</strong>
               <ul>
                 <li>Salario: R$1.500,00</li>
@@ -219,25 +118,25 @@
             <span id="primeira-vaga">
               <h2 class="text-center">Microsoft Corp</h2>
               <strong>Vaga:</strong>
-              <p class="txt-small">Front-End Development</p>
-              <p><br></p>
+              <p  class="lead pl-3 pr-3">Front-End Development</p>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>Tipo de Vaga:</strong>
-              <p class="txt-small">
+              <p  class="lead pl-3 pr-3">
                 CLT
               </p>
-              <p><br></p>
+              <p ><br></p>
               <strong>Descrição:</strong>
-              <p class="txt-small">
+              <p  class="lead pl-3 pr-3">
                 Transforme designs em experiências web incríveis. Domine HTML, CSS e JavaScript para criar interfaces atraentes e responsivas. Junte-se a nós e impulsione a web com sua criatividade.
               </p>
-              <p><br></p>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>Requisitos</strong>
               <ul>
                 <li>5 anos de experiencia na area</li>
                 <li>Cursando 3 semestre</li>
                 <li>Ingles fluente</li>
               </ul>
-              <p><br></p>
+              <p ><br></p>
               <strong>beneficios</strong>
               <ul>
                 <li>Salario: R$1.500,00</li>
@@ -249,25 +148,90 @@
             <span id="primeira-vaga">
               <h2 class="text-center">Microsoft Corp</h2>
               <strong>Vaga:</strong>
-              <p class="txt-small">Front-End Development</p>
-              <p><br></p>
+              <p  class="lead pl-3 pr-3">Front-End Development</p>
+              <p ><br></p>
               <strong>Tipo de Vaga:</strong>
-              <p class="txt-small">
+              <p  class="lead pl-3 pr-3">
                 CLT
               </p>
-              <p><br></p>
+              <p ><br></p>
               <strong>Descrição:</strong>
-              <p class="txt-small">
+              <p  class="lead pl-3 pr-3">
                 Transforme designs em experiências web incríveis. Domine HTML, CSS e JavaScript para criar interfaces atraentes e responsivas. Junte-se a nós e impulsione a web com sua criatividade.
               </p>
-              <p><br></p>
+              <p ><br></p>
               <strong>Requisitos</strong>
               <ul>
                 <li>5 anos de experiencia na area</li>
                 <li>Cursando 3 semestre</li>
                 <li>Ingles fluente</li>
               </ul>
-              <p><br></p>
+              <p ><br></p>
+              <strong>beneficios</strong>
+              <ul>
+                <li>Salario: R$1.500,00</li>
+                <li>Seguro de Vida</li>
+                <li>Plano de Saude</li>
+              </ul>
+              <span>10/10/23</span>
+            </span>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h1 class="text-center">Vagas Disponiveis</h1>
+          <div class="mural-vagas ">
+            <span id="primeira-vaga">
+              <h2 class="text-center">Microsoft Corp</h2>
+              <strong>Vaga:</strong>
+              <p  class="lead pl-3 pr-3">Front-End Development</p>
+              <p ><br></p>
+              <strong>Tipo de Vaga:</strong>
+              <p  class="lead pl-3 pr-3">
+                CLT
+              </p>
+              <p ><br></p>
+              <strong>Descrição:</strong>
+              <p  class="lead pl-3 pr-3">
+                Transforme designs em experiências web incríveis. Domine HTML, CSS e JavaScript para criar interfaces atraentes e responsivas. Junte-se a nós e impulsione a web com sua criatividade.
+              </p>
+              <p class="lead pl-3 pr-3"><br></p>
+              <strong>Requisitos</strong>
+              <ul>
+                <li>5 anos de experiencia na area</li>
+                <li>Cursando 3 semestre</li>
+                <li>Ingles fluente</li>
+              </ul>
+              <p class="lead pl-3 pr-3"><br></p>
+              <strong>beneficios</strong>
+              <ul>
+                <li>Salario: R$1.500,00</li>
+                <li>Seguro de Vida</li>
+                <li>Plano de Saude</li>
+              </ul>
+              <span>10/10/23</span>
+            </span>
+            <span id="primeira-vaga">
+              <h2 class="text-center">Microsoft Corp</h2>
+              <strong>Vaga:</strong>
+              <p  class="lead pl-3 pr-3">Front-End Development</p>
+              <p ><br></p>
+              <strong>Tipo de Vaga:</strong>
+              <p  class="lead pl-3 pr-3">
+                CLT
+              </p>
+              <p class="lead pl-3 pr-3"><br></p>
+              <strong>Descrição:</strong>
+              <p  class="lead pl-3 pr-3">
+                Transforme designs em experiências web incríveis. Domine HTML, CSS e JavaScript para criar interfaces atraentes e responsivas. Junte-se a nós e impulsione a web com sua criatividade.
+              </p>
+              <p class="lead pl-3 pr-3"><br></p>
+              <strong>Requisitos</strong>
+              <ul>
+                <li>5 anos de experiencia na area</li>
+                <li>Cursando 3 semestre</li>
+                <li>Ingles fluente</li>
+              </ul>
+              <p class="lead pl-3 pr-3"><br></p>
               <strong>beneficios</strong>
               <ul>
                 <li>Salario: R$1.500,00</li>
@@ -289,14 +253,14 @@
       </a>
     </div>
   </section>
-  <section class="bg-light pt-2 pb-5 ml-auto mr-auto container justify-content-center" id="documento-scroll">
+  <section class="bg-light pt-2 pb-5 ml-auto mr-auto container justify-content-center" id="documento-scro>
     <h1 class="text-uppercase text-center mt-5">documentação</h1>
     <div class="">
       <h3 class="text-uppercase text-center mt-5">diciplina estágio</h3>
       <div class="pt-2 ">
-        <p class="text-start ">Caro(a) estudante. Os alunos regularmente matriculados na Disciplina de Estágio e/ou Práticas Profissionais serão inseridos no começo do Semestre em uma Sala do Teams para desenvolvimento da Disciplina. Portanto, fique atento quanto a essa movimentação e qualquer dúvida, faça contato com o setor, através do <b>f132.estagio@fatec.sp.gov.br</b>
+        <p  class="lead pl-3 pr-3">Caro(a) estudante. Os alunos regularmente matriculados na Disciplina de Estágio e/ou Práticas Profissionais serão inseridos no começo do Semestre em uma Sala do Teams para desenvolvimento da Disciplina. Portanto, fique atento quanto a essa movimentação e qualquer dúvida, faça contato com o setor, através do <b>f132.estagio@fatec.sp.gov.br</b>
 
-        <p>Os formulários são configurados com o Calendário Acadêmico. Portanto, estarão fechados fora do período indicado para cada atividade.</p>
+        <p class="lead pl-3 pr-3">Os formulários são configurados com o Calendário Acadêmico. Portanto, estarão fechados fora do período indicado para cada atividade.</p>
         </p>
 
         <!-- Botão para acesso ao documentos -->
@@ -305,23 +269,23 @@
 
           <a href="/">
             <div class="box-doc cor--cinza text-center">
-              <p> Apresentação da Disciplina</p>
+              <p class="lead pl-3 pr-3"> Apresentação da Disciplina</p>
             </div>
           </a>
           <a href="/">
             <div class="box-doc cor--cinza text-center">
-              <p>Declaração para Fins de Estágio</p>
+              <p class="lead pl-3 pr-3">Declaração para Fins de Estágio</p>
             </div>
           </a>
           <a href="/">
             <div class="box-doc cor--cinza text-center">
-              <p> Modelos e Documentos de Estágio e/ou Práticas Profissionais
+              <p class="lead pl-3 pr-3"> Modelos e Documentos de Estágio e/ou Práticas Profissionais
               </p>
             </div>
           </a>
           <a href="/">
             <div class="box-doc cor--cinza text-center">
-              <p> Estágios no Guia do Estudante</p>
+              <p class="lead pl-3 pr-3"> Estágios no Guia do Estudante</p>
             </div>
           </a>
 
@@ -331,17 +295,17 @@
 
           <a href="/">
             <div class="box-doc cor--cinza text-center">
-              <p> Programa de Estágios - Avaliação das Empresas</p>
+              <p class="lead pl-3 pr-3"> Programa de Estágios - Avaliação das Empresas</p>
             </div>
           </a>
           <a href="/">
             <div class="box-doc cor--cinza text-center">
-              <p> Programa de Estágios - Autoavaliação (estagiários) </p>
+              <p class="lead pl-3 pr-3"> Programa de Estágios - Autoavaliação (estagiários) </p>
             </div>
           </a>
           <a href="/">
             <div class="box-doc cor--cinza text-center">
-              <p> Programa de Estágios- Captação de Talentos</p>
+              <p class="lead pl-3 pr-3"> Programa de Estágios- Captação de Talentos</p>
             </div>
           </a>
         </div>
@@ -378,7 +342,7 @@
               </div>
               <div class="form-group">
                 <h6 style="font-size: 15px;">Ainda não possui conta?</h6>
-                <p><br></p>
+                <p class="lead pl-3 pr-3"><br></p>
                 <div class="row">
                   <strong>Criar conta: <a type="button" class="btn btn-outline-secondary text-white border-white signin-aluno" data-toggle="modal" data-target="#aluno-modal" data-dismiss="modal">
                       Aluno

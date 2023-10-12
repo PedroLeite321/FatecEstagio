@@ -1,4 +1,4 @@
-<nav class="topo-cont  navbar navbar-expand-lg bg-secondary border border-bottom-1 border-left-0 border-right-0 border-top-0 border-dark mb-5">
+<nav class="topo-cont nabbar-fixed-top navbar navbar-expand-lg bg-secondary border border-bottom-1 border-left-0 border-right-0 border-top-0 border-dark mb-5">
     <div class="img-cont">
         <img class="img-logo img-fluid " style="width: 270px; height: auto " src="https://www.fatectatui.edu.br/site4/imagens/topoNovoRodape.png" alt="/">
     </div>

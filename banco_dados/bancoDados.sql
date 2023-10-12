@@ -26,7 +26,9 @@
         idVagas INT AUTO_INCREMENT PRIMARY KEY,
         descricaoVagas VARCHAR(255),
         cursoVoltado VARCHAR(255),
-        dataPublicao VARCHAR(255)
+        dataPublicao VARCHAR(255),
+        requisitoVaga VARCHAR(255),
+        beneficiosVaga VARCHAR(255)
 
     );
     CREATE TABLE cadastroAluno  (
@@ -42,4 +44,4 @@
         senha INT(16),
         cnpj VARCHAR(255)
  	);
-    );
+    
