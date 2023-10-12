@@ -1,4 +1,4 @@
 <?php 
-    require("./visualizacao/empresa.view.php");
+    require("./visualizacao/empresa/empresa.view.php");
     
 ?>

@@ -1,4 +1,4 @@
 <?php 
-    require("./visualizacao/aluno.view.php");
+    require("./visualizacao/aluno/aluno.view.php");
     
 ?>

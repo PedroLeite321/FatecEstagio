@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estagio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     </div>
     <ul class="nav nav-tabs justify-content-end align-self-center">
       <li class="nav-item">
-        <a class="nav-link nav-color hov-off" href="/">Inicio</a>
+        <a class="nav-link nav-color hov-off" href="#">Inicio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link nav-color hov-off" href="#color-cinza">Mural</a>
@@ -348,189 +348,225 @@
       </div>
     </div>
   </section>
+  <section id="maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.59088875231!2d-47.87035858522078!3d-23.330597858995446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5d8935fa04659%3A0x4c76d62eef12bce7!2sFatec+Tatu%C3%AD+-+Prof.+Wilson+Roberto+Ribeiro+de+Camargo+-+Faculdade+de+Tecnologia+de+Tatu%C3%AD!5e0!3m2!1spt-BR!2sbr!4v1554735489613!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen="">
+    </iframe>
+  </section>
   <!-- Modal de login, aluno e empresa -->
 
   <section id="modal-config">
-  <!-- Modal login-->
-  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header ">
-          <h5 class="modal-title text-center" id="TituloModalCentralizado">Bem Vindo á Fatec Estagios</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-            <span aria-hidden="true">&times;</span>
-          </button>
+    <!-- Modal login-->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header ">
+            <h5 class="modal-title text-center" id="TituloModalCentralizado">Bem Vindo á Fatec Estagios</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+                </div>
+              </div>
+              <div class="form-group">
+                <h6 style="font-size: 15px;">Ainda não possui conta?</h6>
+                <p><br></p>
+                <div class="row">
+                  <strong>Criar conta: <a type="button" class="btn btn-outline-secondary text-white border-white signin-aluno" data-toggle="modal" data-target="#aluno-modal" data-dismiss="modal">
+                      Aluno
+                    </a>
+                    <a type="button" class="btn btn-outline-secondary text-white border-white" data-toggle="modal" data-target="#empresa-modal" data-dismiss="modal">
+                      Empresa
+                    </a>
+                  </strong>
+                </div>
+              </div>
+              <fieldset class="form-group">
+                <div class="row">
+                  <div class="col-sm-10">
+                  </div>
+                </div>
+              </fieldset>
+              <div class="form-group row">
+                <!-- dimensionamento do modal -->
+                <div class="col-sm-10">
+                </div>
+              </div>
+              <div class="form-group row">
+
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+
+          </div>
         </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-10">
+      </div>
+    </div>
+    <!-- modal login -->
+    <!-- Criar conta aluno -->
+    <div class="modal fade" id="aluno-modal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Criar Conta Aluno</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                 <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
               </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
-              <div class="col-sm-10">
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
                 <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
               </div>
-            </div>
-            <fieldset class="form-group">
-              <div class="row">
-                <div class="col-sm-10">
+              <div class="form-group row">
+                <label for="confirma_senha">Confirme a Senha:</label>
+                <input type="password" class="form-control" id="confirma_senha" name="confirma_senha" placeholder="Confirmar Senha" required>
+              </div>
+              <div class="form-group row">
+                <label for="empresa">Nome Aluno:</label>
+                <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Maria"><br>
+              </div>
+              <fieldset class="form-group">
+                <div class="row">
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        Masculino
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
+                      <label class="form-check-label" for="gridRadios2">
+                        Feminino
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="opcao3">
+                      <label class="form-check-label" for="gridRadios3">
+                        Outros
+                      </label>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </fieldset>
-            <div class="form-group row">
-              <!-- dimensionamento do modal -->
-              <div class="col-sm-10">
-              </div>
-            </div>
-            <div class="form-group row">
-
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          <button type="submit" class="btn btn-primary">Entrar</button>
+              </fieldset>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- modal login -->
-  <!-- Criar conta aluno -->
-  <div class="modal fade" id="aluno-modal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="TituloModalCentralizado">Criar Conta Aluno</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
+    <!-- Criar conta aluno -->
 
-            <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-            </div>
-            <div class="form-group row">
-              <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
-            </div>
-            <div class="form-group row">
-              <label for="confirma_senha">Confirme a Senha:</label>
-              <input type="password" class="form-control" id="confirma_senha" name="confirma_senha" placeholder="Confirmar Senha" required>
-            </div>
-            <div class="form-group row">
-              <label for="empresa">Nome Aluno:</label>
-              <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Maria"><br>
-            </div>
-            <fieldset class="form-group">
-              <div class="row">
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      Masculino
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Feminino
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="opcao3">
-                    <label class="form-check-label" for="gridRadios3">
-                      Outros
-                    </label>
-                  </div>
-                </div>
+    <!-- empresa modal -->
+    <div class="modal fade" id="empresa-modal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Criar conta empresa</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
               </div>
-            </fieldset>
-          </form>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+              </div>
+              <div class="form-group row">
+                <label for="confirma_senha">Confirme a Senha:</label>
+                <input type="password" class="form-control" id="confirma_senha" name="confirma_senha" placeholder="Confirmar Senha" required>
+              </div>
+              <div class="form-group row">
+                <label for="empresa">Nome da Empresa:</label>
+                <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Microsoft"><br>
+              </div>
+              <fieldset class="form-group">
+                <div class="row">
+                  
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          <button type="submit" class="btn btn-primary">Entrar</button>
-        </div>
+
       </div>
     </div>
-  </div>
-  <!-- Criar conta aluno -->
-
-  <!-- empresa modal -->
-  <div class="modal fade" id="empresa-modal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="TituloModalCentralizado">Criar conta empresa</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-
-            <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-            </div>
-            <div class="form-group row">
-              <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
-            </div>
-            <div class="form-group row">
-              <label for="confirma_senha">Confirme a Senha:</label>
-              <input type="password" class="form-control" id="confirma_senha" name="confirma_senha" placeholder="Confirmar Senha" required>
-            </div>
-            <div class="form-group row">
-              <label for="empresa">Nome da Empresa:</label>
-              <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Microsoft"><br>
-            </div>
-            <fieldset class="form-group">
-              <div class="row">
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      Pequeno
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Medio
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="opcao3">
-                    <label class="form-check-label" for="gridRadios3">
-                      Grande
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          <button type="submit" class="btn btn-primary">Entrar</button>
-        </div>
-      </div>
-
     </div>
-  </div>
-  </div>
-  <!-- empresa modal -->
-</section>
+    <!-- empresa modal -->
+  </section>
   <!-- Modal de login, aluno e empresa -->
+  <footer>
+    <div class="cont-ft" id="contato-scroll">
+      <div class="img-logo-ft">
+        <img src="./img/LogoTeste.svg" alt="logofooter">
+      </div>
+      <div class="contato-ft">
 
+        <div class="contato-media">
+          <a href="https://www.instagram.com/fatectatui/"><img src="./img/instagram.png" alt="instagram"></a>
+          <a href="https://www.facebook.com/fatectatui"><img src="./img/facebook.png" alt="instagram"></a>
+          <a href="https://www.youtube.com/@FatecTatui132"><img src="./img/youtube.png" alt="instagram"></a>
+        </div>
+
+        <div id="contact" class="contato-link">
+          <div class="item-ft ">
+            <a href="https://www.fatectatui.edu.br/site4/contatonovo.php">
+              <img src="./img/mail.png" alt="email">
+              <p class="mb-auto mt-auto">f132.contato@fatec.sp.gov.br </p>
+            </a>
+          </div>
+          <div class="item-ft">
+            <a href="https://api.whatsapp.com/send?phone=0551532057782">
+              <img src="./img/whatsapp.png" alt="whatsapp">
+              <p class="mb-auto mt-auto ">(15) 3205-7782 (clique aqui)</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="contato-endereco">
+        <a style="text-decoration: none;" href="https://maps.app.goo.gl/6nBxtmy5BKCkd5MP7">
+          <p>Rod. Mario Batista Mori, 971 <br>
+            Jardim Aeroporto, Tatuí - SP</p>
+        </a>
+      </div>
+      <span class="linha"></span>
+      <p class="copy-ft">Todos os direitos reservados. 2023 Ⓒ.</p>
+  </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

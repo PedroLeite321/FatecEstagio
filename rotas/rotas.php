@@ -11,7 +11,7 @@ function rotas() {
     function defineRotas()  {
         //cria uma array associativa, ou seja uma array que tem um nome, também chamada de hash.
         $rotas = [
-            "/" => "./controles/adm.php",/*  "./controles/principal.php", */
+            "/" => "./controles/principal.php",/*  "./controles/principal.php", */
             "/aluno" => "./controles/aluno.php",
             "/empresa" => "./controles/empresa.php",
             "/admin" => "./controles/adm.php"
