@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estagio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
 
 <body>
   <main class="container">
@@ -44,11 +35,11 @@
         </p>
 
   </main>
-  <section id="color-cinza">
+  <section id="color-cinza" class="p-5">
     <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
       <div class="carousel-inner container carouselStyle" >
         <div class="carousel-item active ">
-          <h1 class="text-center">Vagas Disponiveis</h1>
+          <h1 class="text-center">Mural de Vagas</h1>
           <div class="mural-vagas ">
             <span id="primeira-vaga">
               <h2 class="text-center">Microsoft Corp</h2>
@@ -113,7 +104,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <h1 class="text-center">Vagas Disponiveis</h1>
+          <h1 class="text-center">Mural de Vagas</h1>
           <div class="mural-vagas ">
             <span id="primeira-vaga">
               <h2 class="text-center">Microsoft Corp</h2>
@@ -178,7 +169,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <h1 class="text-center">Vagas Disponiveis</h1>
+          <h1 class="text-center">Mudal Vagas</h1>
           <div class="mural-vagas ">
             <span id="primeira-vaga">
               <h2 class="text-center">Microsoft Corp</h2>
@@ -253,12 +244,13 @@
       </a>
     </div>
   </section>
-  <section class="bg-light pt-2 pb-5 ml-auto mr-auto container justify-content-center" id="documento-scro>
+  <section class="bg-light pt-2 pb-5 ml-auto mr-auto justify-content-center" id="documento-scroll">
     <h1 class="text-uppercase text-center mt-5">documentação</h1>
     <div class="">
       <h3 class="text-uppercase text-center mt-5">diciplina estágio</h3>
       <div class="pt-2 ">
         <p  class="lead pl-3 pr-3">Caro(a) estudante. Os alunos regularmente matriculados na Disciplina de Estágio e/ou Práticas Profissionais serão inseridos no começo do Semestre em uma Sala do Teams para desenvolvimento da Disciplina. Portanto, fique atento quanto a essa movimentação e qualquer dúvida, faça contato com o setor, através do <b>f132.estagio@fatec.sp.gov.br</b>
+        </p>
 
         <p class="lead pl-3 pr-3">Os formulários são configurados com o Calendário Acadêmico. Portanto, estarão fechados fora do período indicado para cada atividade.</p>
         </p>
@@ -267,23 +259,23 @@
         <h1 class="text-center mb-5">Estágios e/ou Práticas Profissionais</h1>
         <div class="box-cont flex-wrap justify-content-center">
 
-          <a href="/">
+          <a href="#">
             <div class="box-doc cor--cinza text-center">
               <p class="lead pl-3 pr-3"> Apresentação da Disciplina</p>
             </div>
           </a>
-          <a href="/">
+          <a href="#">
             <div class="box-doc cor--cinza text-center">
               <p class="lead pl-3 pr-3">Declaração para Fins de Estágio</p>
             </div>
           </a>
-          <a href="/">
+          <a href="#">
             <div class="box-doc cor--cinza text-center">
               <p class="lead pl-3 pr-3"> Modelos e Documentos de Estágio e/ou Práticas Profissionais
               </p>
             </div>
           </a>
-          <a href="/">
+          <a href="#">
             <div class="box-doc cor--cinza text-center">
               <p class="lead pl-3 pr-3"> Estágios no Guia do Estudante</p>
             </div>
@@ -293,17 +285,17 @@
         <h1 class="text-center mt-5 mb-5">Programa de Estágios</h1>
         <div class="box-cont flex-wrap justify-content-center">
 
-          <a href="/">
+          <a href="#">
             <div class="box-doc cor--cinza text-center">
               <p class="lead pl-3 pr-3"> Programa de Estágios - Avaliação das Empresas</p>
             </div>
           </a>
-          <a href="/">
+          <a href="#">
             <div class="box-doc cor--cinza text-center">
               <p class="lead pl-3 pr-3"> Programa de Estágios - Autoavaliação (estagiários) </p>
             </div>
           </a>
-          <a href="/">
+          <a href="#">
             <div class="box-doc cor--cinza text-center">
               <p class="lead pl-3 pr-3"> Programa de Estágios- Captação de Talentos</p>
             </div>
@@ -496,6 +488,3 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-
-</html>

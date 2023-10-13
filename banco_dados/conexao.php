@@ -1,14 +1,14 @@
 <?php
-$servidor = "localhost";
-$username = "id21376737_fatecestagiousuarios";
-$password = "tgFatec2023!";
-$banco = "id21376737_fiw";
+    $servidor = "localhost";
+    $usuario = "id21376737_pedro";
+    $senha = "tgFatec2023!";
+    $banco = "id21376737_pedro";
 
-try {
-        $conexao = new PDO("mysql:host=$servidor;dbname=$banco", $username, $password);
-        // set the PDO error mode to exception
-        $connexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        echo "Connected successfully"; 
-        } catch(PDOException $e) {    
-        echo "Connection failed: " . $e->getMessage();
-    }
+    try {
+            $conexao = new PDO("mysql:host=$servidor;dbname=$banco", $usuario, $senha);
+            // set the PDO error mode to exception
+            $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            echo "Connected successfully"; //repetindo 2x no chrome.
+            } catch(PDOException $event) {    
+            echo "Connection failed: " . $event->getMessage();
+        }

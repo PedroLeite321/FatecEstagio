@@ -2,31 +2,34 @@
     <div class="img-cont">
         <img class="img-logo img-fluid " style="width: 270px; height: auto " src="https://www.fatectatui.edu.br/site4/imagens/topoNovoRodape.png" alt="/">
     </div>
-    <ul class=" nav nav-tabs ml-auto ">
-        <li class="nav-item dropdown ">
-        <a class="nav-link dropdown-toggle nav-color hov-off text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Aluno</a>
+    <ul class=" nav nav-tabs ml-auto">
+      <li class="nav-item">
+        <a class="text-white nav-link nav-color hov-off" href="/">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white nav-color hov-off" href="#color-cinza">Mural</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-color text-white hov-off" href="#documento-scroll">Documentos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-color text-white hov-off" href="#contato-scroll">Contato</a>
+      </li>
+      <li class="nav-item">
+        <a type="button" class="btn text-white text-white" data-toggle="modal" data-target="#login-modal">
+          login
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle nav-color hov-off text-white " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Criar</a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Entrar</a>
-            <a class="dropdown-item" href="#">Criar</a>
-            <!-- <div class="dropdown-divider"></div> -->
-            <!-- <a class="dropdown-item" href="#">Link isolado</a> -->
+          <a type="button" class="btn text-dark" data-toggle="modal" data-target="#aluno-modal">
+            Aluno
+          </a>
+          <a type="button" class="btn text-dark" data-toggle="modal" data-target="#empresa-modal">
+            Empresa
+          </a>
         </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle nav-color hov-off text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Empresa</a>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Entrar</a>
-            <a class="dropdown-item" href="#">Criar</a>
-            <!-- <div class="dropdown-divider"></div> -->
-            <!-- <a class="dropdown-item" href="#">Link isolado</a> -->
-        </div>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle nav-color hov-off text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Administrador</a>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Entrar</a>
-            <a class="dropdown-item" href="#">Criar</a>
-        </div>
-        </li>
+      </li>
     </ul>
 </nav>
