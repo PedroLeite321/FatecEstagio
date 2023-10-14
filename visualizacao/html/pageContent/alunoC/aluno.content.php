@@ -22,7 +22,7 @@
       </div>
       <div class="collapse navbar-collapse " id="conteudoNavbarSuportado">
         <div id="barra-pesquisa-topo">
-          <form class="form-inline my-2 my-lg-0">
+          <form class="m-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Vagas Disponiveis" aria-label="Pesquisar">
             <button class="btn btn-outline-succes my-2 my-sm-0" type="submit">Pesquisar</button>
           </form>

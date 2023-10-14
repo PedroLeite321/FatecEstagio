@@ -308,7 +308,7 @@
   <!-- Modal de login, aluno e empresa -->
 
   <section id="modal-config">
-    <!-- Modal login-->
+    <!-- Modal login -->
     <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -321,28 +321,28 @@
           <div class="modal-body">
             <form>
               <div class="form-group row">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <!-- LOGIN AREA -->
+                <label for="signUpEmail" class="col-sm-2 col-form-label font-weight-bold">Email:</label>
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  <input type="email" class="form-control" id="signUpEmail" placeholder="Email" name="signUpEmail">
                 </div>
               </div>
               <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+                <label for="signInPassword" class="col-sm-2 col-form-label font-weight-bold">Senha:</label>
                 <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+                  <input type="password" class="form-control" id="signUpPassword" name="signUpPassword" placeholder="senha">
                 </div>
               </div>
-              <div class="form-group">
-                <h6 style="font-size: 15px;">Ainda não possui conta?</h6>
-                <p class="lead pl-3 pr-3"><br></p>
+              <div class="form-group d-flex flex-row">
+                <p class="pt-2 font-weight-bold font-italic ml-1">Ainda não possui conta?</p>
                 <div class="row">
-                  <strong>Criar conta: <a type="button" class="btn btn-outline-secondary text-white border-white signin-aluno" data-toggle="modal" data-target="#aluno-modal" data-dismiss="modal">
+                  <p class="ml-3 font-weight-bold">Criar conta: <button type="button" class="btn p-2 btn-outline-primary text-dark text-center" data-toggle="modal" data-target="#aluno-modal" data-dismiss="modal">
                       Aluno
-                    </a>
-                    <a type="button" class="btn btn-outline-secondary text-white border-white" data-toggle="modal" data-target="#empresa-modal" data-dismiss="modal">
+                    </button>
+                    <button type="button" class="btn btn-outline-danger text-dark text-center p-2 " data-toggle="modal" data-target="#empresa-modal" data-dismiss="modal">
                       Empresa
-                    </a>
-                  </strong>
+                    </button>
+                  </p>
                 </div>
               </div>
               <fieldset class="form-group">
