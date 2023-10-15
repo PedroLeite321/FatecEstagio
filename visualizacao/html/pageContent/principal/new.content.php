@@ -336,7 +336,7 @@
               <div class="form-group d-flex flex-row">
                 <p class="pt-2 font-weight-bold font-italic ml-1">Ainda não possui conta?</p>
                 <div class="row">
-                  <p class="ml-3 font-weight-bold">Criar conta: <button type="button" class="btn p-2 btn-outline-primary text-dark text-center" data-toggle="modal" data-target="#aluno-modal" data-dismiss="modal">
+                  <p class="ml-3 font-weight-">Criar conta: <button type="button" class="btn p-2 btn-outline-primary text-dark text-center" data-toggle="modal" data-target="#aluno-modal" data-dismiss="modal">
                       Aluno
                     </button>
                     <button type="button" class="btn btn-outline-danger text-dark text-center p-2 " data-toggle="modal" data-target="#empresa-modal" data-dismiss="modal">
@@ -384,20 +384,20 @@
             <form>
 
               <div class="form-group row">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                <label for="signInAluno_Email" class="col-sm-2 col-form-label">Email</label>
+                <input type="email" class="form-control" id="signInAluno_Email"  name="signInAluno_Email"  placeholder="Email">
               </div>
               <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+                <label for="signInAluno_Password" class="col-sm-2 col-form-label">Senha</label>
+                <input type="password" class="form-control" id="signInAluno_Password" name="signInAluno_Password" placeholder="Senha">
               </div>
               <div class="form-group row">
-                <label for="confirma_senha">Confirme a Senha:</label>
-                <input type="password" class="form-control" id="confirma_senha" name="confirma_senha" placeholder="Confirmar Senha" required>
+                <label for="confirmAluno_Password">Confirme a Senha:</label>
+                <input type="password" class="form-control" id="confirmAluno_Password" name="confirmAluno_Password" placeholder="Confirmar Senha" required>
               </div>
               <div class="form-group row">
-                <label for="empresa">Nome Aluno:</label>
-                <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Maria"><br>
+                <label for="alunoName">Nome Aluno:</label>
+                <input type="text" class="form-control" id="alunoName" name="alunoName" placeholder="Maria"><br>
               </div>
               <fieldset class="form-group">
                 <div class="row">
@@ -448,20 +448,20 @@
             <form>
 
               <div class="form-group row">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                <label for="signInEmpresa_Email" class="col-sm-2 col-form-label">Email</label>
+                <input type="email" class="form-control" id="signInEmpresa_Email" name="signInEmpresa_Email" placeholder="Email">
               </div>
               <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+                <label for="signInEmpresa_Password" class="col-sm-2 col-form-label">Senha</label>
+                <input type="password" class="form-control" id="signInEmpresa_Password" name="signInEmpresa_Password" placeholder="Senha">
               </div>
               <div class="form-group row">
-                <label for="confirma_senha">Confirme a Senha:</label>
-                <input type="password" class="form-control" id="confirma_senha" name="confirma_senha" placeholder="Confirmar Senha" required>
+                <label for="confirmEmpresa_Password">Confirme a Senha:</label>
+                <input type="password" class="form-control" id="confirmEmpresa_Password" name="confirmEmpresa_Password" placeholder="Confirmar Senha" required>
               </div>
               <div class="form-group row">
-                <label for="empresa">Nome da Empresa:</label>
-                <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Microsoft"><br>
+                <label for="nomeEmpresa">Nome da Empresa:</label>
+                <input type="text" class="form-control" id="nomeEmpresa" name="nomeEmpresa" placeholder="Microsoft"><br>
               </div>
               <fieldset class="form-group">
                 <div class="row">
