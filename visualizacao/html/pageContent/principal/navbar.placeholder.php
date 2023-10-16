@@ -16,8 +16,8 @@
         <a class="nav-link nav-color text-white hov-off" href="#contato-scroll">Contato</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle nav-color hov-off text-white " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Criar Conta</a>
-        <div class="dropdown-menu">
+        <a class="nav-link dropdown-toggle nav-color hov-off text-white " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Criar Conta</a>
+        <div class="dropdown-menu ">
           <a type="button" class="btn btn-outline-primary gap-2 d-flex flex-column btn-sm text-dark" data-toggle="modal" data-target="#aluno-modal">
             Aluno
           </a>

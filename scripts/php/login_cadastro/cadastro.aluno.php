@@ -1,13 +1,14 @@
 <?php 
-    include("./banco_dados/conexao.php");
+    include_once("./banco_dados/conexao.php");
+    echo $conexao;
     function matchPassword($primeiraSenha, $segundaSenha)   {
         if($primeiraSenha !== $segundaSenha)    {
-            echo("As senhas não são iguais.");
+            die("As senhas não são iguais.");
 
         }
     }
-    checkPostValues()   {
-        if(isset($_POST["alunoName"]) === TRUE && isset($_POST["signInAluno_Email"]) === TRUE && isset($_POST["signInAluno_Password"]) && === TRUE $_POST["signInAluno_Password"] === TRUE )  {
+    function checkPostValues()   {
+        if( isset($_POST["alunoName"],  $_POST["signInAluno_Email"], $_POST["signInAluno_Password"], $_POST["signInAluno_Password"], $_POST["signInAluno_Password"]) )  {
             die("Um dos POSTS não foram enviados corretamente");
         }
     }
@@ -18,9 +19,22 @@
             $email = $_POST["signInAluno_Email"];
             $senha = $_POST["signInAluno_Password"];
             $senha2 = $_POST["signInAluno_Password"];
+            matchPassword($senha, $senha2);
             
         }
     }
     checkPost();
+    function preparaAlunoSignIn()   {
+        if ($stmt = ->prepare('SELECT id, password FROM cadastroAluno WHERE username = ?')) {
+            // Bind parameters (s = string, i = int, b = blob, etc), in our case the username is a string so we use "s"
+            $stmt->bind_param('s', $_POST['username']);
+            $stmt->execute();
+            // Store the result so we can check if the account exists in the database.
+            $stmt->store_result();
+        
+        
+            $stmt->close();
+        }
+    }
 
 ?>
