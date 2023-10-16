@@ -28,7 +28,7 @@
       </li>
       <li class="nav-item">
         <a type="button" class="btn text-white text-white" data-toggle="modal" data-target="#login-modal">
-          login
+          Login
         </a>
       </li>
      

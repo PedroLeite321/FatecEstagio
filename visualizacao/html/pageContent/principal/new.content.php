@@ -381,7 +381,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form>
+            <form method="post" action="./login_cadastro/cadastro.php">
 
               <div class="form-group row">
                 <label for="signInAluno_Email" class="col-sm-2 col-form-label">Email</label>
@@ -392,8 +392,8 @@
                 <input type="password" class="form-control" id="signInAluno_Password" name="signInAluno_Password" placeholder="Senha">
               </div>
               <div class="form-group row">
-                <label for="confirmAluno_Password">Confirme a Senha:</label>
-                <input type="password" class="form-control" id="confirmAluno_Password" name="confirmAluno_Password" placeholder="Confirmar Senha" required>
+                <label for="confirmAluno_Password2">Confirme a Senha:</label>
+                <input type="password" class="form-control" id="confirmAluno_Password" name="confirmAluno_Password2" placeholder="Confirmar Senha" required>
               </div>
               <div class="form-group row">
                 <label for="alunoName">Nome Aluno:</label>
@@ -432,7 +432,7 @@
         </div>
       </div>
     </div>
-    <!-- Criar conta aluno -->
+    <!-- Criar conta empresa -->
 
     <!-- empresa modal -->
     <div class="modal fade" id="empresa-modal" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
@@ -445,23 +445,23 @@
             </button>
           </div>
           <div class="modal-body">
-            <form>
+            <form method="post" action="./login_cadastro/cadastro.php">
 
               <div class="form-group row">
                 <label for="signInEmpresa_Email" class="col-sm-2 col-form-label">Email</label>
-                <input type="email" class="form-control" id="signInEmpresa_Email" name="signInEmpresa_Email" placeholder="Email">
+                <input type="email" class="form-control" id="signInEmpresa_Email" name="signInEmpresa_Email" placeholder="Email" require>
               </div>
               <div class="form-group row">
-                <label for="signInEmpresa_Password" class="col-sm-2 col-form-label">Senha</label>
-                <input type="password" class="form-control" id="signInEmpresa_Password" name="signInEmpresa_Password" placeholder="Senha">
+                <label for="signInEmpresa_Password2" class="col-sm-2 col-form-label">Senha</label>
+                <input type="password" class="form-control" id="signInEmpresa_Password" name="signInEmpresa_Password2" placeholder="Senha" require>
               </div>
               <div class="form-group row">
                 <label for="confirmEmpresa_Password">Confirme a Senha:</label>
-                <input type="password" class="form-control" id="confirmEmpresa_Password" name="confirmEmpresa_Password" placeholder="Confirmar Senha" required>
+                <input type="password" class="form-control" id="confirmEmpresa_Password" name="confirmEmpresa_Password" placeholder="Confirmar Senha" require>
               </div>
               <div class="form-group row">
                 <label for="nomeEmpresa">Nome da Empresa:</label>
-                <input type="text" class="form-control" id="nomeEmpresa" name="nomeEmpresa" placeholder="Microsoft"><br>
+                <input type="text" class="form-control" id="nomeEmpresa" name="nomeEmpresa" placeholder="Microsoft" require>
               </div>
               <fieldset class="form-group">
                 <div class="row">

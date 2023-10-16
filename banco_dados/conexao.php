@@ -1,7 +1,7 @@
 <?php
     $servidor = "localhost";
-    $usuario = "id21376737_pedro";
-    $senha = "tgFatec2023!";
+    $usuario = "root";
+    $senha = "";
     $banco = "id21376737_pedro";
 
     try {
