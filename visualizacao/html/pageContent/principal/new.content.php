@@ -381,15 +381,15 @@
             </button>
           </div>
           <div class="modal-body">
-            <form method="post" action="./login_cadastro/cadastro.php">
+            <form method="post" action="./scripts/php/login_cadastro/cadastro.aluno.php">
 
               <div class="form-group row">
                 <label for="signInAluno_Email" class="col-sm-2 col-form-label">Email</label>
-                <input type="email" class="form-control" id="signInAluno_Email"  name="signInAluno_Email"  placeholder="Email">
+                <input type="email" class="form-control" id="signInAluno_Email"  name="signInAluno_Email"  placeholder="Email" required>
               </div>
               <div class="form-group row">
                 <label for="signInAluno_Password" class="col-sm-2 col-form-label">Senha</label>
-                <input type="password" class="form-control" id="signInAluno_Password" name="signInAluno_Password" placeholder="Senha">
+                <input type="password" class="form-control" id="signInAluno_Password" name="signInAluno_Password" placeholder="Senha" required>
               </div>
               <div class="form-group row">
                 <label for="confirmAluno_Password2">Confirme a Senha:</label>
@@ -403,7 +403,7 @@
                 <div class="row">
                   <div class="col-sm-10">
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1"checked >
                       <label class="form-check-label" for="gridRadios1">
                         Masculino
                       </label>
@@ -423,11 +423,11 @@
                   </div>
                 </div>
               </fieldset>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="submit" class="btn btn-primary">Entrar</button>
           </div>
         </div>
       </div>
@@ -445,34 +445,34 @@
             </button>
           </div>
           <div class="modal-body">
-            <form method="post" action="./login_cadastro/cadastro.php">
+            <form method="post" action="">
 
               <div class="form-group row">
                 <label for="signInEmpresa_Email" class="col-sm-2 col-form-label">Email</label>
-                <input type="email" class="form-control" id="signInEmpresa_Email" name="signInEmpresa_Email" placeholder="Email" require>
+                <input type="email" class="form-control" id="signInEmpresa_Email" name="signInEmpresa_Email" placeholder="Email" required>
               </div>
               <div class="form-group row">
                 <label for="signInEmpresa_Password2" class="col-sm-2 col-form-label">Senha</label>
-                <input type="password" class="form-control" id="signInEmpresa_Password" name="signInEmpresa_Password2" placeholder="Senha" require>
+                <input type="password" class="form-control" id="signInEmpresa_Password" name="signInEmpresa_Password2" placeholder="Senha" required>
               </div>
               <div class="form-group row">
                 <label for="confirmEmpresa_Password">Confirme a Senha:</label>
-                <input type="password" class="form-control" id="confirmEmpresa_Password" name="confirmEmpresa_Password" placeholder="Confirmar Senha" require>
+                <input type="password" class="form-control" id="confirmEmpresa_Password" name="confirmEmpresa_Password" placeholder="Confirmar Senha" required>
               </div>
               <div class="form-group row">
                 <label for="nomeEmpresa">Nome da Empresa:</label>
-                <input type="text" class="form-control" id="nomeEmpresa" name="nomeEmpresa" placeholder="Microsoft" require>
+                <input type="text" class="form-control" id="nomeEmpresa" name="nomeEmpresa" placeholder="Microsoft" required>
               </div>
               <fieldset class="form-group">
                 <div class="row">
                   
                 </div>
               </fieldset>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+              </div>
             </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="submit" class="btn btn-primary">Entrar</button>
           </div>
         </div>
 
