@@ -52,6 +52,7 @@ CREATE TABLE alunoAplicacaoVagas(
     FOREIGN_KEY (alunoId) REFERENCES aluno(alunoId),
     dataAplicacao DATE,
     aplicacaoStatus VARCHAR(50),
+    feedback LONGTEXT VARCHAR(50)
 
     
 );
@@ -60,5 +61,5 @@ CREATE TABLE admin(
     nome VARCHAR(255),
     senha VARCHAR(30),
     email VARCHAR(255),
-    papel VARCHAR(255),
+    cargos VARCHAR(255),
 );

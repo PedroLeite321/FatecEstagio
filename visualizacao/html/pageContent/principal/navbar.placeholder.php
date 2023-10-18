@@ -1,8 +1,8 @@
 <nav class="topo-cont nabbar-fixed-top navbar navbar-expand-lg bg-secondary border border-bottom-1 border-left-0 border-right-0 border-top-0 border-dark mb-5">
     <div class="img-cont">
-        <img class="img-logo img-fluid " style="width: 270px; height: auto " src="https://www.fatectatui.edu.br/site4/imagens/topoNovoRodape.png" alt="/">
+        <img class="img-logo img-fluid ml-5" style="width: 210px; height: auto " src="https://www.fatectatui.edu.br/site4/imagens/topoNovoRodape.png" alt="/">
     </div>
-    <ul class=" nav nav-tabs ml-auto">
+    <ul class=" nav nav-tabs ml-auto mr-3">
       <li class="nav-item">
         <a class="text-white nav-link nav-color hov-off" href="/">Inicio</a>
       </li>
@@ -27,7 +27,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a type="button" class="btn text-white text-white" data-toggle="modal" data-target="#login-modal">
+        <a type="button" class="btn text-white text-white nav-link nav-color text-white hov-off" data-toggle="modal" data-target="#login-modal">
           Login
         </a>
       </li>
