@@ -1,6 +1,6 @@
 
 CREATE TABLE aluno(
-    alunoID INT PRIMARY_KEY AUTO_INCREMENT,
+    alunoId INT PRIMARY_KEY AUTO_INCREMENT,
     ra INT(25),
     nome VARCHAR(50),
     curso VARCHAR(80),
@@ -26,15 +26,39 @@ CREATE TABLE usuarioEmpresa(
     idUsuarioEmpresa INT PRIMARY_KEY NOT NULL AUTO_INCREMENT,
     empresaId INT,
     FOREIGN_KEY (empresaId) REFERENCES empresa(empresaId),
-    senha,
-    email
+    senha INT(16),
+    email VARCHAR(255),
+
 );
 CREATE TABLE vagas(
+    idVagas INT PRIMARY_KEY NOT NULL,
+    tituloVaga VARCHAR(70),
+    descricaoVagas LONGTEXT,
+    vagasStatus BIT,
+    dataVaga DATE,
+    salario VARCHAR(30),
+    beneficios LONGTEXT,
+    horario VARCHAR(255),
+    curso VARCHAR(255),
+    localizacaoVaga VARCHAR(255),
+    regiao VARCHAR(255)
+
 
 );
-CREATE TABLE alunoVagas(
-    idVaga INT PRIMARY_KEY NOT NULL AUTO_INCREMENT
+
+CREATE TABLE alunoAplicacaoVagas(
+    idVaga INT PRIMARY_KEY NOT NULL AUTO_INCREMENT,
+    FOREIGN_KEY (idVagas) REFERENCES vagas(idVagas),
+    FOREIGN_KEY (alunoId) REFERENCES aluno(alunoId),
+    dataAplicacao DATE,
+    aplicacaoStatus VARCHAR(50),
+
+    
 );
 CREATE TABLE admin(
-
+    idAdmin INT PRIMARY_KEY NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(255),
+    senha VARCHAR(30),
+    email VARCHAR(255),
+    papel VARCHAR(255),
 );
