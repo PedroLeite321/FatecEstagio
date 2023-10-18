@@ -34,7 +34,7 @@ CREATE TABLE vagas(
     idVagas INT PRIMARY KEY NOT NULL,
     tituloVaga VARCHAR(70),
     descricaoVagas LONGTEXT,
-    vagasStatus BIT,
+    vagasStatus VARCHAR(255),
     dataVaga DATE,
     salario VARCHAR(30),
     beneficios LONGTEXT,
