@@ -2,7 +2,7 @@
     //checa se a sessão já existe, caso não, cria uma.
      if(!isset($_SESSION)) 
      { 
-         session_start(); 
+        session_start(); 
      } 
     $host = "localhost";
     $usuario = "root";

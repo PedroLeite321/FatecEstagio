@@ -1,47 +1,40 @@
-//create database
 
-    CREATE DATABASE programaestagio;
-
-    CREATE TABLE empresa    (
-        empresaID INT AUTO_INCREMENT PRIMARY KEY,
-        nomeEmpresa VARCHAR(255),
-        enderecoRua INT(255),
-        cnpj INT(14),
-        email VARCHAR(255)
-    );
-    CREATE TABLE alunos (
-        alunoID INT AUTO_INCREMENT PRIMARY KEY,
-        nomAluno VARCHAR(255),
-        curso VARCHAR(255),
-        periodo VARCHAR(255),
-        enderecoRua VARCHAR(255),
-        semestre VARCHAR(255)
-    );
-    CREATE TABLE admin   (
-        idAdmin INT AUTO_INCREMENT PRIMARY KEY,
-        fazendoEstagioNMatriculado INT(255),
-        fazendoEstagioMatriculado INT(255)
-    );
-    CREATE TABLE vagas  (
-        idVagas INT AUTO_INCREMENT PRIMARY KEY,
-        descricaoVagas VARCHAR(255),
-        cursoVoltado VARCHAR(255),
-        dataPublicao VARCHAR(255),
-        requisitoVaga VARCHAR(255),
-        beneficiosVaga VARCHAR(255)
-
-    );
-    CREATE TABLE cadastroAluno  (
-        idCadastroAluno INT AUTO_INCREMENT PRIMARY KEY,
-        nomeAluno VARCHAR(255),
-        emailInstitucional VARCHAR(255),
-        senhaRA INT(14)
-    );
-    CREATE TABLE cadastroEmpresa    (
-        idCadastroEmpresa INT AUTO_INCREMENT PRIMARY KEY,
-        nomeEmpresa  VARCHAR(255),
-        emailGuerra VARCHAR(255),
-        senha INT(16),
-        cnpj VARCHAR(255)
- 	);
+CREATE TABLE aluno(
+    alunoID INT PRIMARY_KEY AUTO_INCREMENT,
+    ra INT(25),
+    nome VARCHAR(50),
+    curso VARCHAR(80),
+    semestre VARCHAR(80),
+    email VARCHAR(80),
+    endereco VARCHAR(255),
+    dataNascimento DATE,
+    telefone VARCHAR(255),
+    senha INT(255),
+    periodo VARCHAR(255)
+);
+CREATE TABLE empresa(
+    empresaId INT PRIMARY_KEY AUTO_INCREMENT,
+    razaoSocial VARCHAR(255),
+    nome VARCHAR(255),
+    endereco VARCHAR(255),
+    cnpj VARCHAR(255),
+    siteEmpresa VARCHAR(255),
+    ramo VARCHAR(255),
     
+);
+CREATE TABLE usuarioEmpresa(
+    idUsuarioEmpresa INT PRIMARY_KEY NOT NULL AUTO_INCREMENT,
+    empresaId INT,
+    FOREIGN_KEY (empresaId) REFERENCES empresa(empresaId),
+    senha,
+    email
+);
+CREATE TABLE vagas(
+
+);
+CREATE TABLE alunoVagas(
+    idVaga INT PRIMARY_KEY NOT NULL AUTO_INCREMENT
+);
+CREATE TABLE admin(
+
+);
