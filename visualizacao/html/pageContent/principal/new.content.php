@@ -1,6 +1,6 @@
 
 
-<body>
+
   <main class="container">
     <div>
       <h1 class="mt-35 text-center">Novo Site do Programa de Estágio da Fatec Tatuí-SP: Uma Evolução para Nossa Comunidade Acadêmica</h1>
@@ -35,6 +35,7 @@
         </p>
 
   </main>
+  
   <section id="color-cinza" class="p-5">
     <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
       <div class="carousel-inner container carouselStyle" >
@@ -244,6 +245,7 @@
       </a>
     </div>
   </section>
+
   <section class="bg-light pt-2 pb-5 ml-auto mr-auto justify-content-center" id="documento-scroll">
     <h1 class="text-uppercase text-center mt-5">documentação</h1>
     <div class="">
@@ -478,7 +480,7 @@
 
       </div>
     </div>
-    </div>
+    
     <!-- empresa modal -->
   </section>
   <!-- Modal de login, aluno e empresa -->

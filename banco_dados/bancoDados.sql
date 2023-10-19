@@ -1,7 +1,6 @@
 
 CREATE TABLE aluno(
     alunoId INT PRIMARY KEY AUTO_INCREMENT,
-    ra INT(25),
     nome VARCHAR(50),
     curso VARCHAR(80),
     semestre VARCHAR(80),
@@ -10,7 +9,8 @@ CREATE TABLE aluno(
     dataNascimento DATE,
     telefone VARCHAR(255),
     senha INT(255),
-    periodo VARCHAR(255)
+    periodo VARCHAR(255),
+    genero VARCHAR(255)
 );
 CREATE TABLE empresa(
     empresaId INT PRIMARY KEY AUTO_INCREMENT,
