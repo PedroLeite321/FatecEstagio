@@ -7,10 +7,8 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/aluno.css">
-  <link rel="stylesheet" href="./script/script.js">
 </head>
 
-<body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="container-topo">
       <div id="persona-topo">
@@ -22,7 +20,7 @@
       </div>
       <div class="collapse navbar-collapse " id="conteudoNavbarSuportado">
         <div id="barra-pesquisa-topo">
-          <form class="m-inline my-2 my-lg-0">
+          <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Vagas Disponiveis" aria-label="Pesquisar">
             <button class="btn btn-outline-succes my-2 my-sm-0" type="submit">Pesquisar</button>
           </form>
@@ -36,7 +34,7 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="#">Link</a>
           </li>
-          
+
           <li class="nav-item">
             <a class="nav-link text-white disabled" href="#">Desativado</a>
           </li>
@@ -45,10 +43,10 @@
               Dropdown
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Ação</a>
-              <a class="dropdown-item" href="#">Outra ação</a>
+              <a class="dropdown-item" href="#">Perfil</a>
+              <a class="dropdown-item" href="#">Cadastro</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Algo mais aqui</a>
+              <a class="dropdown-item" href="#">Configurações</a>
             </div>
           </li>
         </ul>
@@ -86,7 +84,7 @@
                     </button>
                   </div>
                   <!-- Modal -->
-                  <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                  <div class="modal fade " id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                       <div class="modal-content bg-primary">
                         <div class="modal-header">
@@ -134,7 +132,87 @@
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn btn-primary">Candidatar-se</button>
+
+                            <!-- TESTE MODAL PARA PREENCHIMENTO DA VAGA -->
+
+                            <!-- Botão para acionar modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalCandidatar">
+                              Candidatar-se
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="ModalCandidatar" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloModalLongoExemplo">Título do modal</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <!-- TESTE DE FORMULARIO DENTRO DO MODAL -->
+
+                                    <form>
+                                      <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                          <label for="inputEmail4">Email</label>
+                                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                          <label for="inputPassword4">Senha</label>
+                                          <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="inputAddress">Endereço</label>
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="inputAddress2">Endereço 2</label>
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+                                      </div>
+                                      <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                          <label for="inputCity">Cidade</label>
+                                          <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                          <label for="inputEstado">Estado</label>
+                                          <select id="inputEstado" class="form-control">
+                                            <option selected>Escolher...</option>
+                                            <option>...</option>
+                                          </select>
+                                        </div>
+                                        <div class="form-group col-md-2">
+                                          <label for="inputCEP">CEP</label>
+                                          <input type="text" class="form-control" id="inputCEP">
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                                          <label class="form-check-label" for="gridCheck">
+                                            Clique em mim
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <button type="submit" class="btn btn-primary">Entrar</button>
+                                    </form>
+
+
+                                    <!-- TESTE DE FORMULARIO DENTRO DO MODAL -->
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                    <button type="button" class="btn btn-primary">oq é ossp</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!-- TESTE MODAL PARA PREENCHIMENTO DA VAGA -->
+
                           </div>
                         </div>
                       </div>

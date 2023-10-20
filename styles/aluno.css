@@ -1,64 +1,65 @@
 /* barra de navegação */
 #container-topo{
-display: grid;
-grid-template-columns: auto 1fr 1fr;
-border-bottom: 3px solid white;
-}
-/* imagem de perfil e nome */
-#persona-topo{
-  padding-left: 60px;
-}
-.link-buttom-topo{
-justify-content: center;
-gap: 20px;
-font-size: 20px;
-}
-/* barra de pesquisa */
-#conteudoNavbarSuportado{
-justify-content: end;
-}
-/* botao da barra de pesquisa */
-.btn{
-  border-color: white;
-color: white;
-
-}
-.btn:hover{
-  background-color: white;
-  border-color: #007bff;
-  color: #007bff;
-}
-/* Retirada do efeito de mudar a cor ao clicar, cor estava verde */
-.btn-outline-succes{
-  background-color: transparent;
-  background-image: none;
-  border-color: white;
-}
-.btn:hover{
-  transform:translate(color) ;
-
-}
-/* conteudo */
-.container-main{
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  padding: 60px;
-  width: 100vw;
-  height: 100vh;
+  grid-template-columns: auto 1fr 1fr;
+  border-bottom: 3px solid white;
+  }
+  /* imagem de perfil e nome */
+  #persona-topo{
+    padding-left: 60px;
+  }
+  .link-buttom-topo{
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  }
+  /* barra de pesquisa */
+  #conteudoNavbarSuportado{
+  justify-content: end;
+  }
+  /* botao da barra de pesquisa */
+  .btn{
+    border-color: white;
+  color: white;
   
-}
-/* vagas */
-.mural-vagas-main{
-   grid-column: 1/-1;
-  border-radius: 5px;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: auto;
-padding: 20px;
-gap: 20px;
-}
-.container{
-  border-radius: 20px;
-}
-
-
+  }
+  .btn:hover{
+    background-color: white;
+    border-color: #007bff;
+    color: #007bff;
+  }
+  /* Retirada do efeito de mudar a cor ao clicar, cor estava verde */
+  .btn-outline-succes{
+    background-color: transparent;
+    background-image: none;
+    border-color: white;
+  }
+  .btn:hover{
+    transform:translate(color) ;
+  
+  }
+  /* conteudo */
+  .container-main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 60px;
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  /* vagas */
+  .mural-vagas-main{
+     grid-column: 1/-1;
+    border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  padding: 20px;
+  gap: 20px;
+  }
+  .container{
+    border-radius: 20px;
+  }
+  
+  
+  
